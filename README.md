@@ -15,3 +15,6 @@
    Intent shareIntent = Intent.createChooser(sendIntent, null);  //////// Do not touch.
    startActivity(shareIntent);  //////// Do not touch.
 ```
+
+
+## If you want to receive a result at the end of the video add this in your MANIFEST.
