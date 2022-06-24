@@ -34,7 +34,7 @@ Note: Remember that it has to be the same Activity that you put here
 ```
     sendIntent.putExtra("Package-classname", "MainActivity");  //////// Class where you will be redirected when receiving the result of your app.
 ```
-## Add this queries in this location of the MANIFEST.
+### Add this queries in this location of the MANIFEST.
 ```
  </application>
     <queries>
