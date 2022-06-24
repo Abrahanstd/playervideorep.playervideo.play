@@ -1,5 +1,5 @@
 ## How to use our software to play videos outside of your app.
-### et
+### Insert this code and modify it
 
 ```
    String url = "playervideorep.playervideo.play";
