@@ -1,5 +1,6 @@
 ## How to use our software to play videos outside of your app.
 To use our service in your app, the user needs to have our app installed
+https://play.google.com/store/apps/details?id=playervideorep.playervideo.play
 ### Insert this code and modify it
 ```
    String url = "playervideorep.playervideo.play";  //////// Do not touch.
