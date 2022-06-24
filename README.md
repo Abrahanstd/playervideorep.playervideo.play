@@ -18,3 +18,7 @@
 
 
 ## If you want to receive a result at the end of the video add this in your MANIFEST.
+### Add this permission
+```
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+```
