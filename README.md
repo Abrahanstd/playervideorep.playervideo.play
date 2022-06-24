@@ -22,3 +22,25 @@
 ```
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
 ```
+### Add this to the activity that will open on receiving the result.
+```
+    <intent-filter>
+    <action android:name="android.intent.action.SEND" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <data android:mimeType="text/plain" />
+    </intent-filter>
+```
+Note: Remember that it has to be the same Activity that you put here
+```
+    sendIntent.putExtra("Package-classname", "MainActivity");  //////// Class where you will be redirected when receiving the result of your app.
+```
+## Add this queries in this location of the MANIFEST.
+```
+ </application>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+    </queries>
+</manifest>
+```
