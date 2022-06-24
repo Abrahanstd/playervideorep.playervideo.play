@@ -8,7 +8,7 @@
    sendIntent.setAction(Intent.ACTION_SEND);  //////// Do not touch.
    sendIntent.putExtra("Video-url", selectedItem.getUrl());  //////// Add the ID of the YouTube video you want to play.
    sendIntent.putExtra("Result-Enabled", true);  //////// True if you want that at the end of the video it returns you to validate that the video is over.
-   sendIntent.putExtra("Result-Return", "xVeryfy");  //////// String that will be returned at the end of the video.
+   sendIntent.putExtra("Result-Return", "result");  //////// String that will be returned at the end of the video.
    sendIntent.putExtra("Package-Return", "com.example.example");  //////// Here add your package.
    sendIntent.putExtra("Package-classname", "MainActivity");  //////// Class where you will be redirected when receiving the result of your app.
    sendIntent.setType("text/plain");  //////// Do not touch. 
