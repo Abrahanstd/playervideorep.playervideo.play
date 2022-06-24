@@ -1,1 +1,1 @@
-Cómo usar nuestro software para reproducir videos fuera de su aplicación.
+How to use our software to play videos outside of your app.
