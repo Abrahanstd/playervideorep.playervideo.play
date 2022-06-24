@@ -2,6 +2,7 @@
 
 
 ```
+   String url = "playervideorep.playervideo.play";
    Intent sendIntent = new Intent();
    sendIntent.setClassName(url,url + ".MainActivity");
    sendIntent.setAction(Intent.ACTION_SEND);
