@@ -1,7 +1,7 @@
 ## How to use our software to play videos outside of your app.
 
 
-
+```
    Intent sendIntent = new Intent();
    sendIntent.setClassName(url,url + ".MainActivity");
    sendIntent.setAction(Intent.ACTION_SEND);
@@ -13,3 +13,4 @@
    sendIntent.setType("text/plain");
    Intent shareIntent = Intent.createChooser(sendIntent, null);
    startActivity(shareIntent);
+```
