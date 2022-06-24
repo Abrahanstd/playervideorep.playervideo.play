@@ -6,7 +6,7 @@
    Intent sendIntent = new Intent();  //////// Do not touch.
    sendIntent.setClassName(url,url + ".MainActivity");  //////// Do not touch.
    sendIntent.setAction(Intent.ACTION_SEND);  //////// Do not touch.
-   sendIntent.putExtra("Video-url", selectedItem.getUrl());
+   sendIntent.putExtra("Video-url", selectedItem.getUrl());  //////// Add the ID of the YouTube video you want to play.
    sendIntent.putExtra("Result-Return", "xVeryfy");
    sendIntent.putExtra("Result-Enabled", true);
    sendIntent.putExtra("Package-Return", "com.diamantespro.diamondsfreefire");
